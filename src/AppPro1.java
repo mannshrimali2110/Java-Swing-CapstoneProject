@@ -116,7 +116,7 @@ public class AppPro1 implements ActionListener {
         Connection conn = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/capstone", "root", "mannshrimali2003");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/capstone", "root", "");
         } catch (Exception e) {
             System.out.println("Exception Caught : " + e);
         }
